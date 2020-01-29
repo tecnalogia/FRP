@@ -314,7 +314,7 @@ var THEMEMASCOT = {};
         /* ------------------------------ Demo Switcher  ------------------------ */
         /* ---------------------------------------------------------------------- */
         TM_demoSwitcher: function() {
-            var showSwitcher = true;
+            var showSwitcher = false;
             var $style_switcher = $('#style-switcher');
             if( !$style_switcher.length && showSwitcher ) {
                 $.ajax({
